@@ -18,12 +18,14 @@ class  StudentsController  < ApplicationController
   end
 
   def update
+    @student=Student.find(params[:id])
+    @student.update(student_params)
   end
 
   private
 
   def student_params
-   params.require(:student).permit!
+   params.require(:student).permit!  #we said that user is allow to change all the params
   end
 
 end
