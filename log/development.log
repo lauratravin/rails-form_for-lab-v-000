@@ -392,3 +392,11 @@ Processing by StudentsController#new as HTML
 Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/students/new" for 173.77.183.241 at 2021-03-18 22:48:02 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/new.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 246ms (Views: 229.7ms | ActiveRecord: 0.8ms)
+
+
