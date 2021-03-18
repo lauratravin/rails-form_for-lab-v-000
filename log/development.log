@@ -400,3 +400,10 @@ Processing by StudentsController#new as HTML
 Completed 200 OK in 246ms (Views: 229.7ms | ActiveRecord: 0.8ms)
 
 
+Started GET "/students/new" for 173.77.183.241 at 2021-03-18 22:48:28 +0000
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
