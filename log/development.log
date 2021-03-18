@@ -174,3 +174,27 @@ Processing by StudentsController#show as HTML
 Completed 200 OK in 194ms (Views: 192.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/students/1/edit" for 173.77.183.241 at 2021-03-18 22:02:21 +0000
+Processing by StudentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering students/edit.html.erb within layouts/application
+  Rendered students/edit.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/new" for 173.77.183.241 at 2021-03-18 22:02:28 +0000
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"new"}
+  Rendering students/show.html.erb within layouts/application
+  Rendered students/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/create" for 173.77.183.241 at 2021-03-18 22:02:39 +0000
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"create"}
+  Rendering students/show.html.erb within layouts/application
+  Rendered students/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
