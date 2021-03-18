@@ -88,3 +88,14 @@ Processing by StudentsController#show as HTML
   Parameters: {"id"=>"create"}
   Rendering students/show.html.erb within layouts/application
   Rendered students/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 29ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/new" for 173.77.183.241 at 2021-03-18 21:59:44 +0000
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"new"}
+  Rendering students/show.html.erb within layouts/application
+  Rendered students/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
