@@ -25,7 +25,7 @@ class  SchoolClassesController < ApplicationController
 
   private
 
-  def student_params
+  def school_class_params
    params.require(:school_class).permit!  #we said that user is allow to change all the params
   end
 
