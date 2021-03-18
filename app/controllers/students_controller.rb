@@ -1,4 +1,4 @@
-class  SchoolClassesController < ApplicationController
+class  StudentsController  < ApplicationController
   def show
   end
   def create
