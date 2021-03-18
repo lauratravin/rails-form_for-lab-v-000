@@ -75,3 +75,11 @@ Processing by StudentsController#show as HTML
 Completed 200 OK in 362ms (Views: 361.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/students/create" for 173.77.183.241 at 2021-03-18 21:58:08 +0000
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"create"}
+  Rendering students/show.html.erb within layouts/application
+  Rendered students/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
